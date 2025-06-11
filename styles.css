@@ -110,6 +110,8 @@ button:hover {
     background-color: var(--secondary-color);
 }
 
+
+
 /* Skills Styles */
 #skills ul {
     display: grid;
