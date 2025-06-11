@@ -12,3 +12,4 @@ This is my personal portfolio website created for the IST-103 midterm exam.
 ### How to View
 1. Clone this repository
 2. Open index.html in any web browser
+3. ... or go to https://sbzsilva.github.io/exam_sergio/
