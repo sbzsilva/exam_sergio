@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 6a087a46bcb6e814adfb5376be93ef11a13d2783 Sergio Silva <msbsilva@outlook.com> 1749673063 -0700	branch: Created from HEAD
+6a087a46bcb6e814adfb5376be93ef11a13d2783 296c3c931cbf6d435ddb743abafd8b7dbbb48afc Sergio Silva <msbsilva@outlook.com> 1749673137 -0700	commit: Add HTML structure
+296c3c931cbf6d435ddb743abafd8b7dbbb48afc 4f4892f83daad00fb328e45c28cdf6b94633ff49 Sergio Silva <msbsilva@outlook.com> 1749673571 -0700	commit: Add semantic HTML structure with sections
+4f4892f83daad00fb328e45c28cdf6b94633ff49 fd1749f2a6896dcc2a12771aa940d76b9a913bae Sergio Silva <msbsilva@outlook.com> 1749674058 -0700	commit: Add contact form with validation
+fd1749f2a6896dcc2a12771aa940d76b9a913bae 9e1bfbdbb50af895d023103d17027852fb2f3586 Sergio Silva <msbsilva@outlook.com> 1749674167 -0700	commit: Add basic style
+9e1bfbdbb50af895d023103d17027852fb2f3586 677f00b7e892b272e6f76aefd49f35a337d05e1c Sergio Silva <msbsilva@outlook.com> 1749674250 -0700	commit: Add CSS base styles to index.html page
+677f00b7e892b272e6f76aefd49f35a337d05e1c 6e14763f53bf816caf67e5ee59911bef290932b1 Sergio Silva <msbsilva@outlook.com> 1749674494 -0700	commit: Add layout styling for header, sections, and footer
+6e14763f53bf816caf67e5ee59911bef290932b1 b1946070426c609c9e05a980c8a5337c4d0557d0 Sergio Silva <msbsilva@outlook.com> 1749674881 -0700	commit: Add skills section styling
+b1946070426c609c9e05a980c8a5337c4d0557d0 4c23fe434e1d609a4f4823a612d0a03c92e9bf27 Sergio Silva <msbsilva@outlook.com> 1749675926 -0700	merge feature: Fast-forward
+4c23fe434e1d609a4f4823a612d0a03c92e9bf27 709d18a01bd6a418ca93a71557b5bf29f9bd80c5 Sergio Silva <msbsilva@outlook.com> 1749677243 -0700	commit: Center content without layout changes
