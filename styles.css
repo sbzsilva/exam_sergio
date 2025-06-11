@@ -103,6 +103,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 1rem;
+    transition: background-color 0.3s ease; /* Feature */
 }
 
 button:hover {
@@ -118,7 +119,44 @@ button:hover {
 }
 
 #skills li {
-    padding: 0.5rem;
+    padding: 0.8rem; /* Slightly more padding for better hover area */
     background-color: var(--light-color);
     border-left: 3px solid var(--primary-color);
+    cursor: default; /* Shows it's interactive */
+    transition: 
+        transform 0.25s ease-out,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
 }
+
+#skills li:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-3px); /* Subtle lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Bonus: Entry animation when page loads */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#skills li {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0; /* Start invisible for fade-in */
+}
+
+/* Stagger the animations */
+#skills li:nth-child(1) { animation-delay: 0.1s; }
+#skills li:nth-child(2) { animation-delay: 0.2s; }
+#skills li:nth-child(3) { animation-delay: 0.3s; }
+#skills li:nth-child(4) { animation-delay: 0.4s; }
+#skills li:nth-child(5) { animation-delay: 0.5s; }
+#skills li:nth-child(6) { animation-delay: 0.6s; }
