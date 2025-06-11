@@ -21,6 +21,21 @@ body {
     --dark-color: #2c3e50;
 }
 
+/* Centering Wrapper */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0 auto;
+    max-width: 1200px; /* Limits width on large screens */
+    padding: 0 1rem; /* Prevents touching screen edges */
+}
+
+/* Ensures sections stay centered */
+main {
+    width: 100%;
+}
+
 /* Header Styles */
 header {
     background-color: var(--primary-color);
